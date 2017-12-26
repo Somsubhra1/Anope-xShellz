@@ -1,0 +1,59 @@
+[
+ {
+ "placeholder":"Enter Server IP of your IRC Server",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "serverip"
+ },
+ {
+ "placeholder":"Enter IRC Server Port (Example:6667)",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "port"
+ },
+ {
+ "placeholder":"Enter Link Password (You can find it in the link block of unrealircd.conf.)",
+ "format":"string",
+ "type": "password",
+ "isMandatory": true,
+ "name": "pass"
+ },
+ {
+ "placeholder":"Enter IRC Server Link (Example: irc.server.com) (This should be present in the ulines block of unrealircd.conf)",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "servername"
+ },
+ {
+ "placeholder":"Enter IRC Server Name",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "server"
+ },
+ {
+ "placeholder":"Enter Services Host (This should be present in the ulines block of unrealircd.conf) (Example: services.server.com)",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "serviceshost"
+ },
+ {
+ "placeholder":"Enter Nick(s) to add as Super Admin (To add multiple nicks separate them by a single space) (Example: StephenS Som)",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "rootusers"
+ },
+ {
+ "placeholder":"Install Anope Services",
+ "format":"button",
+ "type": "submit",
+ "isMandatory": "true",
+ "name" : "submit",
+ "value": "Install Anope now"
+ }
+]
